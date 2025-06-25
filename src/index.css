@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf')
+    format('truetype');
+  font-weight: 300 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #b9ff66;
+  --color-black: #191a23;
+  --color-light: #f3f3f3;
+
+  --font-sans: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+
+  --text-h1: 3rem;
+  --text-h2: 2.25rem;
+  --text-h3: 1.5rem;
+  --text-h4: 1.125rem;
+  --text-p: 1rem;
+  --text-h1-m: 2rem;
+  --text-h2-m: 1.5rem;
+  --text-h3-m: 1.125rem;
+  --text-h4-m: 1rem;
+  --text-p-m: 0.875rem;
+}
+
+body {
+  font-family: var(--font-sans);
+}
