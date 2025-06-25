@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar';
-import LandingPage from './LandingPage';
+import LandingPage from './Pages/LandingPage';
 
 function App() {
   return (

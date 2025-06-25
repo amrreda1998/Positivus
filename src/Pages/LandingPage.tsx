@@ -1,8 +1,8 @@
 import React from 'react';
-import HeroSection from './Sections/HeroSection';
-import ServicesSection from './Sections/ServicesSection';
-import CtaSection from './Sections/CtaSection';
-import Footer from './components/Footer';
+import HeroSection from '../Sections/HeroSection';
+import ServicesSection from '../Sections/ServicesSection';
+import CtaSection from '../Sections/CtaSection';
+import Footer from '../components/Footer';
 
 const LandingPage: React.FC = () => {
   return (
